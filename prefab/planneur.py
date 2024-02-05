@@ -1,5 +1,5 @@
 import pygame
-from grille import Grille
+from object.grille import Grille
 
 
 def grille_planneur():

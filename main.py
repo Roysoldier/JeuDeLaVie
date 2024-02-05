@@ -1,8 +1,8 @@
 import pygame
-from grille import Grille
-from planneur import grille_planneur
-from importMenu import ImportMenu
-from canonplanneur import gun_glider
+from object.grille import Grille
+from prefab.planneur import grille_planneur
+from object.importMenu import ImportMenu
+from prefab.canonplanneur import gun_glider
 
 pygame.display.set_caption("Jeu de La Mort")
 pygame.display.set_icon(pygame.image.load("assets/favicon.png"))
